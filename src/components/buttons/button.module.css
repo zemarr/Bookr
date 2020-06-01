@@ -1,0 +1,204 @@
+button {
+    margin: 0 15px;
+    outline: none;
+}
+
+.signin {
+    color: #078f68;
+    font-weight: 500;
+    font-size: 13.6px;
+    letter-spacing: -0.4px;
+    background-color: transparent;
+    border: solid 2px #078f68;
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.signup {
+    color: white;
+    font-weight: 500;
+    font-size: 13.6px;
+    letter-spacing: -0.4px;
+    background-color: #078f68;
+    border: solid 2px #078f68;
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.bookroom {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: #078f68;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    top: 115px;
+    left: 22px;
+    transition: cubic-bezier(1, 0.01, 0, 1) 0.5s;
+    -webkit-transition: cubic-bezier(1, 0.01, 0, 1) 0.5s;
+    -moz-transition: cubic-bezier(1, 0.01, 0, 1) 0.5s;
+    -ms-transition: cubic-bezier(1, 0.01, 0, 1) 0.5s;
+    -o-transition: cubic-bezier(1, 0.01, 0, 1) 0.5s;
+}
+
+.bookroom:hover {
+    font-size: 19px;
+    background-color: #078f68;
+    color: white;
+}
+
+.bookmeetingroom {
+    margin: 0;
+    margin-top: 1rem;
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    color: #078f68;
+    font-size: 1.1rem;
+    border: solid 2px #078f68;
+    border-radius: 4px;
+    transition: ease-in-out .1s;
+    -webkit-transition: ease-in-out .1s;
+    -moz-transition: ease-in-out .1s;
+    -ms-transition: ease-in-out .1s;
+    -o-transition: ease-in-out .1s;
+}
+
+.bookmeetingroom:hover {
+    font-weight: 500;
+    color: white;
+    background-color: #078f68;
+}
+
+/* .viewmore {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 55px;
+    width: 200px;
+    background-color: transparent;
+    color: #078f68;
+    border: solid 1px #078f6885;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.22);
+    transition: ease-in-out .1s;
+    -webkit-transition: ease-in-out .1s;
+    -moz-transition: ease-in-out .1s;
+    -ms-transition: ease-in-out .1s;
+    -o-transition: ease-in-out .1s;
+}
+
+.viewmore:hover {
+    font-weight: 500;
+    color: white;
+    background-color: #078f68;
+} */
+
+
+.viewdetails {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    color: #078f68;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    top: 115px;
+    left: 22px;
+    transition: ease-in-out .25s;
+    -webkit-transition: ease-in-out .25s;
+    -moz-transition: ease-in-out .25s;
+    -ms-transition: ease-in-out .25s;
+    -o-transition: ease-in-out .25s;
+}
+
+.viewdetails:hover {
+    font-size: 1.05rem;
+    background-color: #078f68;
+    color: white;
+}
+.booking {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 35px;
+    width: 150px;
+    background-color: #078f68;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    top: 115px;
+    left: 22px;
+    transition: ease-in-out .25s;
+    -webkit-transition: ease-in-out .25s;
+    -moz-transition: ease-in-out .25s;
+    -ms-transition: ease-in-out .25s;
+    -o-transition: ease-in-out .25s;
+}
+
+.booking:hover {
+    font-size: 1.05rem;
+    border-color: #078f68;
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    color: #078f68;
+}
+
+.contact {
+    margin: 1rem 5.5rem;
+    height: 50px;
+    width: 130px;
+    background-color: transparent;
+    color: #078f68;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: solid 2px #078f68;
+    border-radius: 4px;
+    transition: ease-in-out .25s;
+    -webkit-transition: ease-in-out .25s;
+    -moz-transition: ease-in-out .25s;
+    -ms-transition: ease-in-out .25s;
+    -o-transition: ease-in-out .25s;
+}
+
+.subscribe {
+    background-color: white;
+    color: #078f68;
+    height: 35px;
+    width: 43px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+

@@ -1,0 +1,406 @@
+
+
+.dashsidebar {
+    position: fixed;
+    overflow-x: hidden;
+    top: -0;
+    /* left: -360px; */
+    left: 0;
+    width: 320px;
+    height: 100%;
+    background-color: #078f68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.pr-dropshadow {
+    box-shadow: 2px 0px 62px -32px rgba(7,143,104,1);
+    padding: 0;
+}
+
+.dashsidebar ul {
+    list-style: none;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashsidebar ul a {
+    font-size: 1rem;
+    line-height: 7;
+    height: 5rem;
+    width: 80%;
+    color: white;
+    border-bottom: solid 1px #ffffff38;
+    transition: ease-in-out .2s;
+    -webkit-transition: ease-in-out .2s;
+    -moz-transition: ease-in-out .2s;
+    -ms-transition: ease-in-out .2s;
+    -o-transition: ease-in-out .2s;
+}
+
+.dashsidebar ul a:hover {
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+
+.showsidebar {
+    border: none;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    font-size: 20px;
+    color: #00deaf;
+    background-color: transparent;
+    margin: 15px;
+    padding: 15px;
+    outline: none;
+    z-index: 200;
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 5rem 0 0rem 0;
+    padding: 0 1rem;
+}
+
+.headings p {
+    border-bottom: solid 0.5px #078f6869;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    width: 250px;
+    text-align: center;
+}
+
+.marketingbg {
+    width: 100%;
+    margin: 1.5rem;
+    position: relative;
+    background-image: url(../../assets/img/Marketingroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.salesbg {
+    width: 100%;
+    margin: 1.5rem;
+    position: relative;
+    background-image: url(../../assets/img/Salesroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boardbg {
+    width: 100%;
+    margin: 1.5rem;
+    position: relative;
+    background-image: url(../../assets/img/Boardroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.techbg {
+    width: 100%;
+    margin: 1.5rem;
+    position: relative;
+    background-image: url(../../assets/img/Techroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.roomthumbnails {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem 0 0 0;
+}
+
+.marketingbg, .salesbg, .boardbg, .techbg, .overlay {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.46);
+    width: 100%;
+    height: 100%;
+}
+
+.overlay p {
+    font-size: 1.3rem;
+        line-height: 25px;
+        font-weight: 500;
+        color: white;
+        text-Align: center;
+        width: 130px;
+        position: absolute;
+        left: 34px;
+        top: 50px;
+}
+
+.row.sidebar {
+    width: 100%;
+}
+
+.roomheading {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 2rem 7rem;
+    color: #078f68;
+}
+
+.custom-modal {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 130vh;
+    background-color: white;
+    position: relative;
+    top: -421px;
+    z-index: 1;
+}
+
+.custommodal {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 260vh;
+    background-color: white;
+    position: relative;
+    top: -395px;
+    z-index: 1;
+}
+
+.cm-0 {
+    left: -381px;
+    top: -355px;
+    z-index: 1;
+}
+
+.cm-1 {
+    left: -625px;
+    top: -355px;
+    z-index: 1;
+}
+
+.cm-2 {
+    left: -870px;
+    top: -355px;
+    z-index: 1;
+}
+
+.cm-3 {
+    left: -1114px;
+    top: -355px;
+    z-index: 1;
+}
+
+.cm0 {
+    left: -729px;
+    z-index: 1;
+}
+
+.cm1 {
+    left: -985px;
+    z-index: 1;
+}
+
+.cm2 {
+    left: -730px;
+    top: -630px;
+    z-index: 1;
+}
+
+.cm3 {
+    left: -985px;
+    top: -630px;
+    z-index: 1;
+}
+
+.modal-box {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.book-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-container p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.closebtn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 0px;
+    color: white;
+    background-color: #078f68;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 34px 49px -49px rgb(0, 0, 0);
+}
+
+.closebtn svg {
+    position: relative;
+    right: -9.1px;
+    top: 9.5px;
+}
+
+.book-input {
+    height: 50px;
+    border: solid .5px #80808059;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.mr-bg {
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(../../assets/img/Marketingroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px rgb(28, 187, 121);
+    border-radius: 4px;
+    box-shadow: 0px 34px 49px -49px rgb(0, 0, 0);
+}
+
+.sr-bg {
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(../../assets/img/Salesroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px rgb(28, 187, 121);
+    border-radius: 4px;
+    box-shadow: 0px 34px 49px -49px rgb(0, 0, 0);
+}
+
+.br-bg {
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(../../assets/img/Boardroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px rgb(28, 187, 121);
+    border-radius: 4px;
+    box-shadow: 0px 34px 49px -49px rgb(0, 0, 0);
+}
+
+.tr-bg {
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(../../assets/img/Techroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: 0px -850px;
+    border: solid 1px rgb(28, 187, 121);
+    border-radius: 4px;
+    box-shadow: 0px 34px 49px -49px rgb(0, 0, 0);
+}
+
+.roomdescription {
+    padding: 0 10rem;
+}
+
+.roomdescription svg {
+    font-size: 2.5rem;
+    color: #797979;
+}
+
+.roomdescription p:first-child, .roomdescription p:nth-child(3) {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.roomdescription p:nth-child(4) {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.mymeetings {
+    padding: 0 3rem; 
+}
+
+.mymeetings p:first-child {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.customcard {
+    position: relative;
+}
+
+.utilityicons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: absolute;
+    width: 60px;
+    left: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.utilityicons svg {
+    margin: 0 0.44rem;
+}
+
+.close {
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.edit {
+    color: rgb(161, 161, 161);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.output{
+    font-size: 0.9rem;
+    color: red;
+}
