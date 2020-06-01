@@ -15,6 +15,7 @@ button:focus {
 
 .unlocked {
   position: relative;
+  overflow: hidden;
 }
 
 .dark {
